@@ -15,7 +15,7 @@ const GiftExpertApp = () => {
 
     return (
         <>
-        <h1>{"<"}Buscador de gifs{">"}</h1>
+        <h1>{"<"}Buscador de GIFS{">"}</h1>
         {/* conectar con el componente AddCategory  enviando dos propiedades para establecer mas catergorias */}
         <AddCategory setCategories={setCategories} categories={categories}></AddCategory>
         <br></br>
