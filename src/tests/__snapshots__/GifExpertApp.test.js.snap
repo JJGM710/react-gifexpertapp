@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente principal GifExpertApp debe crear tantos GifGrid como tantos elemento hayan en categories, 1`] = `
+<Fragment>
+  <h1>
+    &lt;
+    Buscador de GIFS
+    &gt;
+  </h1>
+  <AddCategory
+    categories={
+      Array [
+        "Kimetsu no Yaiba",
+        "Dragon Ball",
+      ]
+    }
+    setCategories={[Function]}
+  />
+  <br />
+  <ol>
+    <GifGrid
+      category="Kimetsu no Yaiba"
+      key="Kimetsu no Yaiba"
+    />
+    <GifGrid
+      category="Dragon Ball"
+      key="Dragon Ball"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`Pruebas en el componente principal GifExpertApp debe hacer math con el snapshot, renderizar ok 1`] = `
+<Fragment>
+  <h1>
+    &lt;
+    Buscador de GIFS
+    &gt;
+  </h1>
+  <AddCategory
+    categories={Array []}
+    setCategories={[Function]}
+  />
+  <br />
+  <ol />
+</Fragment>
+`;

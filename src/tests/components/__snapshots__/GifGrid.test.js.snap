@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifGrid debe renderizar el componente en su estado inicial 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__flash animate__slow"
+  >
+    One Punch Man
+  </h3>
+  <h2
+    className="animate__animated animate__flash animate__slower"
+  >
+    Loading...
+  </h2>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;

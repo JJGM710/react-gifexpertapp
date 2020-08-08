@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import AddCategory from './components/AddCategory'
 import { GifGrid } from './components/GifGrid';
 
-const GiftExpertApp = () => {
+const GiftExpertApp = ({defaulCategories = []}) => {
 
     //uso de useState para establecer categorias
-    const [categories, setCategories] = useState([]);
+    const [categories, setCategories] = useState(defaulCategories);
 
     // const handleAdd = () => {
     //     setCategories( ctgs => [...ctgs,'Kimetsu no Yaiba']);
